@@ -25,7 +25,7 @@ function actualizarLista() {
     });
 }
 
-function sorteo() {
+function sortearAmigo() {
     if (amigos.length === 0) {
         alert("¡Uy! Parece que no hay amigos en la lista para el sorteo.");
         return;
